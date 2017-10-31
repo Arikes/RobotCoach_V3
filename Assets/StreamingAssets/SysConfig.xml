@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<RoborCoach>
+    <!--1为发版，0为调试-->
+    <Client>0</Client>
+
+  <!--0为手动档，1为自动档-->
+    <GearType>0</GearType>
+  
+    <Socket>
+      <!--SoceketIP-->
+      <SocektIP>192.168.31.33</SocektIP>
+      <!--Soceket端口号-->
+      <SocektPort>8990</SocektPort>
+    </Socket>
+    <Serial>
+      <!--传感器com口配置-->
+      <SensorCom>5</SensorCom>
+      <!--Gps com口配置-->
+      <GpsCom>7</GpsCom>
+    </Serial>
+    <CarPara>
+      <!--方向盘左打最大角-->
+      <WheelAngleLeft>540</WheelAngleLeft>
+      <!--方向盘右打最小角-->
+      <WheelAngleRight>-540</WheelAngleRight>
+      <!--半联动离合器范围最大值-->
+      <SelfClutchMax>60</SelfClutchMax>
+      <!--半联动离合器范围最小值-->
+      <SelfClutchMin>50</SelfClutchMin>
+      <!--离合器最大值-->
+      <ClutchMax>100</ClutchMax>
+      <!--离合器最大值活动区域范围最小值-->
+      <ClutchMaxSlopeMin>95</ClutchMaxSlopeMin>
+      <!--离合器最小值活动区域范围最大值-->
+      <ClutchMinSlopeMax>5</ClutchMinSlopeMax>
+      <!--汽车的最小速度-->
+      <SpeedMin>0.3</SpeedMin>
+      
+      
+    </CarPara>
+</RoborCoach>

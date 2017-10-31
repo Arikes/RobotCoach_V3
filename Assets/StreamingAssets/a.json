@@ -1,0 +1,40 @@
+{
+    "sensor": {
+        "nSteerWheelAngle": "0",
+        "nTurnLightState": "0",
+        "strGearsState": "1",
+        "nClutchAngle": "0",
+        "nBrakeAngle": "0",
+        "nHornState": "0",
+        "nHandbrakeState": "0",
+        "nEngineSpeed": "900",
+        "dDisFrontSpace": "0",
+        "dDisBackSpace": "0",
+        "dSpeed": "0",
+        "dAcceleration1": "0",
+        "dAcceleration2": "0",
+        "nAcceleratdepth": "0",
+        "nFlameoutstate": "1",
+        "nDoorState": "0",
+        "nWarningTime": "0",
+        "dDisWarning": "0",
+        "nSensitivity": "2",
+        "nBrakeReason": "2",
+        "dDisFrosidemargin": "2",
+        "dDisBacksidemargin": "2",
+        "nSafeBelt": "0",
+        "nAlarmEnable": "5A",
+        "nHardwareDtc": "0003FFFFFFFF",
+        "nEngineFire": "0"
+    },
+    "gps": {
+        "dSheerAngle": "86.52",
+        "dDisEast": "186.321",
+        "dDisNorth": "26.728",
+        "dDisUp": "0",
+        "dEastSpeed": "0.3",
+        "dNorthSpeed": "0",
+        "dBaseLine": "2",
+        "nStrGpsStatus": "4"
+    }
+}
