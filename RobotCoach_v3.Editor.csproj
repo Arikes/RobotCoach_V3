@@ -246,6 +246,7 @@
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\Shaders\testShader01.shader" />
     <None Include="Assets\StreamingAssets\Map_Field.xml" />
     <None Include="Assets\StreamingAssets\SysConfig.xml" />
   </ItemGroup>
