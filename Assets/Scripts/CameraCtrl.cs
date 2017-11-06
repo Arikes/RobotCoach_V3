@@ -36,13 +36,15 @@ public class CameraCtrl : MonoBehaviour
         {
             //相对于车的位置
             mMainCamera.transform.parent = mCarObject.transform;
-            mMainCamera.transform.position = dstPos;
+            Vector3 rotationVector3 = new Vector3(90f, 0f, 0f);
+            Quaternion rotation = Quaternion.Euler(rotationVector3);
+            mMainCamera.transform.rotation = rotation;
+            mMainCamera.transform.position = mCarObject.transform.position;
+
         } else if (mFlyType == 0)
         {
             //绝对坐标
-            //mMainCamera.transform.position = dstPos;
             mMainCamera.transform.parent = null;
-            mMainCamera.transform.parent = mCarObject.transform;
         }
         return true;
     }
