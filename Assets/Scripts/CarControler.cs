@@ -61,7 +61,7 @@ public class CarControler : MonoBehaviour {
         }
         else if (Input.GetKeyDown(KeyCode.F2))
         {
-            CameraCtrl.instance.FlyTo(new Vector3(0, 500, 200), new Vector3(0.0f, -1.0f, 0.0f), 1);
+            CameraCtrl.instance.FlyTo(new Vector3(0, 500, 200), new Vector3(0.0f, 1.0f, -2.0f), 1);
         }
     }
 

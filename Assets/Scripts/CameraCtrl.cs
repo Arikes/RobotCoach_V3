@@ -36,7 +36,7 @@ public class CameraCtrl : MonoBehaviour
         {
             //相对于车的位置
             mMainCamera.transform.parent = mCarObject.transform;
-            Vector3 rotationVector3 = new Vector3(90f, 0f, 0f);
+            Vector3 rotationVector3 = new Vector3(0f, 0f, 0f);
             Quaternion rotation = Quaternion.Euler(rotationVector3);
             mMainCamera.transform.rotation = rotation;
             mMainCamera.transform.position = mCarObject.transform.position;
