@@ -39,7 +39,7 @@ public class CameraCtrl : MonoBehaviour
             Vector3 rotationVector3 = new Vector3(0f, 0f, 0f);
             Quaternion rotation = Quaternion.Euler(rotationVector3);
             mMainCamera.transform.rotation = rotation;
-            mMainCamera.transform.position = mCarObject.transform.position;
+            mMainCamera.transform.position = dstPos;
 
         } else if (mFlyType == 0)
         {

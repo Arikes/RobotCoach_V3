@@ -106,9 +106,11 @@
     <Compile Include="Assets\Scripts\CameraCtrl.cs" />
     <Compile Include="Assets\Scripts\CapsuleLoadScript.cs" />
     <Compile Include="Assets\Scripts\CarControler.cs" />
+    <Compile Include="Assets\Scripts\PanelManager.cs" />
     <Compile Include="Assets\Scripts\RcDefineUnit.cs" />
     <Compile Include="Assets\Scripts\RcGeometry.cs" />
     <Compile Include="Assets\Scripts\RcRoadXMLParser.cs" />
+    <Compile Include="Assets\Scripts\UI\ms_video_ctrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AVProVideo\Demos\Materials\FillBackground.shader" />
